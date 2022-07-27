@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Courier;
+  padding: 20px;
+  background: #d4ebfa;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #e1e1e1;
+}
+.h2 {
+  font-size: 35px;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 25px;
+}
+
+
+.card {
+   background-color: #f2f2f2;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #d1d1d1;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Pixelation-Creations' Blog</h2>
+  <div class="h2"<h3>The Land of Warfare, Countryballs, and Marvel</h3></div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>PCMU MCU Phase 1 Lineup!</h2>
+      <h5>Category: PCMU, Marvel. July 27, 2022</h5>
+      <div class="fakeimg" style="height:200px;"><img src="PCMU72722.png" height="200px"></div>
+      <p>Today is the much anticipated (for me at least) release of the PCMU Phase 1 Lineup. So, without further ado, here's the comics that will appear in Phase 1.</p>
+      <a href="72722.html">Read more...</a>
+    </div>
+    <div class="card">
+      <h2>So... I have a blog now!</h2>
+      <h5>July 27, 2022</h5>
+      <div class="fakeimg" style="height:200px;">:)</div>
+      <p>Yeah. Not much to say...</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img width=200px; heigt=200px; src="https://uploads.scratch.mit.edu/get_image/user/75075058_60x60.png">
+      <p><br>- Human </br><br> - History Buff</br><br>- Filmmaking</br><br>- Marvel</br></p>
+    </div>
+    <div class="card">
+      <h3>Work for the APMU</h3>
+      <p>Animators are needed for a scratch-based MCU. Join today by contacting @AnimatorsParadise on his scratch profile.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Pixelation-Creations</h2>
+</div>
+
+</body>
+</html>
